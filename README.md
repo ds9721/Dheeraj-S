@@ -154,8 +154,5 @@
 
                     <input type="submit" value="submit" name="submit" id="register"
                 </form>
-
-
-
     </body>
 </html>
