@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Disney+hotstar show</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Rudra The Edge of Darkness</h1>
+        </header>
+
+        <img src="rudra.png" width="300" height="168">
+        <h3>Rudra The Darkside</h3>
+        <button class="watch">Streaming on Disney+Hotstar</button>
+        <button class="watchlater">Add to watchlater</button>
+
+        <footer>
+            <a href="*">Disney+hotstar</a>
+            <a href="*"> amazon prime</a>
+            <a href="*">youtube</a>
+        </footer>
+
+    </main>
+    
+</body>
+</html>
+
+
+CSS Code
+
+{
+    text-transform: capitalize;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    width:100%;
+}
+h1{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+}
+main img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+h3{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 50px;
+    border: 1px solid rgba(red, green, blue, alpha);
+}
+h3:hover{
+    transition: .3s;
+    color: black;
+    background-color: rgb(12, 12, 136);
+}
+.watch{
+    border-color:transparent;
+    background-color: rgba(255,0,0,0.834);
+    color: white;
+    padding: 10px 100px;
+    margin:30px 50px;
+    border-radius: 10px;
+}
+.watchlater{
+    border-radius: 10px;
+    padding: 10px 110px;
+    margin: 30px;
+    border: 1px solid red;
+    background-color: transparent;
+}
+.watchlater:hover{
+    transition: .3s;
+    color:white;
+    background-color: red;
+footer{
+    padding: auto;
+    background-color:red;
+
+}
+}
+footer a{
+    color:blue;
+    text-decoration: none;
+    margin: 40px;
+
+}
+footer a:hover{
+    border-bottom: 1px solid white;
+    transition: .3s ease;
+}
