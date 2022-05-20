@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Food Assignment8</title>
+</head>
+<body>
+    <header>
+        <h1>Assignment 8</h1>
+    </header>
+    <main>
+        <div class="main2">
+            <div class="div1">
+                <img src="burger.jpg" alt="" class="plain">
+                <img src="healthy vegitables.jpg" alt="" class="dashed">
+                <img src="rice.jpg" alt="" class="square">
+            </div>
+            <div class="div2">
+                <div class="doublea">
+                    <img src="jelly.jpg" alt="" class="double">
+                </div>
+                <div class="doubleb">
+                    <img src="chicken.jpg" alt="" class="double2">
+                </div>
+                <div class="plain2a">
+                    <img src="nuddles.jpg" alt="" class="plain2">
+                </div>
+                <div>
+                    <img src="sweets.jpg" alt="" class="none">
+                </div>
+                <div class="content">
+                    <h3>Food is necessory for all</h3>
+                    <p>Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.Hunting and gathering, horticulture, pastoralism, and the development of agriculture are the primary means by which humans have adapted to their environments to feed themselves. Food has long served as a carrier of culture in human societies and has been a driving force for globalization. This was especially the case during the early phases of European trade and colonial expansion, when foods such as the hot red pepper, corn (maize), and sweet potatoes spread throughout Europe to Africa and Asia.</p>
+
+                </div>
+    </main>
+    <div class="footer">
+        <a href="*">facebook</a>
+        <a href="*">twiter</a>
+        <a href="*">instagram</a>
+    </div>
+    
+</body>
+</html>
+
+CSS Code: 
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    }
+    body{
+    width: 100%;
+    height: auto;
+    }
+    header{
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    .div1{
+    display: flex;
+    justify-content: center;
+    }
+    .div1 img{
+    margin: 50px;
+    }
+    .div2{
+    display: flex;
+    justify-content: center;
+    }
+    main img{
+    height: 150px;
+    width: 150px;
+    }
+    .plain{
+    border: 15px solid lightseagreen;
+    }
+    .dashed{
+    border: 15px solid lightseagreen;
+    border-style: dashed;
+    }
+    .square{
+    border: 15px solid lightseagreen;
+    border-style:dotted;
+    }
+
+    .double{
+        border: 15px solid lightseagreen;
+        border-left: 10px solid rgb(14, 77, 74);
+        border-top: 10px solid rgb(14, 77, 74);
+        }
+        .doublea{
+        border: 15px solid lightseagreen;
+        border-right: 15px solid rgb(14, 77, 74);
+        border-bottom: 15px solid rgb(14, 77, 74);
+        width: fit-content;
+        margin: 50px;
+        }
+        .double2{
+        border: 15px solid lightseagreen;
+        border-right: 15px solid rgb(14, 77, 74);
+        border-bottom: 15px solid rgb(14, 77, 74);
+        }
+        .doubleb{
+        border: 15px solid lightseagreen;
+        border-left: 10px solid rgb(14, 77, 74);
+        border-top: 10px solid rgb(14, 77, 74);
+        width: fit-content;
+        margin: 50px;
+        }
+        .plain2{
+        border: 10px solid lightseagreen;
+        margin: 5px;
+        }
+        .plain2a{
+        border: 10px solid lightseagreen;
+        width: fit-content;
+        margin: 50px;
+        }
+        .none{
+        margin-left:45%;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px black;
+        }
+        .content{
+        background-color: lightseagreen;
+        color: white;
+        padding: 20px;
+        height: 200px;
+        border-top:10px solid green;
+        border-left: 10px solid red;
+
+        border-bottom: 10px solid blue;
+border-right: 10px solid magenta;
+margin-bottom: 20px;
+}
+h3{
+text-align: center;
+margin-bottom: 10px;
+font-size: 25px;
+}
+.footer{
+text-align: center;
+width: 100%;
+padding: 50px 0px;
+background-color: lightseagreen;
+}
+.footer a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+margin: 30px;
+}
