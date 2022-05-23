@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fontawesome.com/search?q=instagram&s=solid%2Cbrands">
+<link rel="stylesheet" href="style.css">
+<title>Dheeraj Sonkar</title>
+</head>
+<body>
+<header>
+<div class="menu">
+<h2>Assignment 9</h2>
+<ul>
+<li><a href="#">home</a></li>
+<li><a href="#">blog</a></li>
+<li><a href="#">about</a></li>
+</ul>
+</div>
+<h1 class="fsd">full stack development</h1>
+<p class="mainp">Lorem ipsum dolor sit amet consectetur, adipisicing
+elit.</p>
+</header>
+<main>
+<div class="text-section">
+<div class="box1">
+<h1 class="box1h">Lorem ipsum dolor sit amet consectet.</h1>
+<p class="box1p">Lorem ipsum, dolor sit amet consectetur
+adipisicing elit. Voluptatum magni dolorum
+dolores vero sequi ex quaerat neque officiis ad qui
+recusandae numquam nihil rem labore doloribus
+ullam alias, voluptates animi.</p>
+<a href="#" class="more">more</a>
+</div>
+<div class="box1">
+<h1 class="box1h">Lorem ipsum dolor sit amet consectet.</h1>
+<p class="box1p">Lorem ipsum, dolor sit amet consectetur
+adipisicing elit. Voluptatum magni dolorum
+dolores vero sequi ex quaerat neque officiis ad qui
+recusandae numquam nihil rem labore doloribus
+ullam alias, voluptates animi.</p>
+<a href="#" class="more">more</a>
+</div>
+<div class="box1">
+<h1 class="box1h">Lorem ipsum dolor sit amet consectet.</h1>
+<p class="box1p">Lorem ipsum, dolor sit amet consectetur
+adipisicing elit. Voluptatum magni dolorum
+dolores vero sequi ex quaerat neque officiis ad qui
+recusandae numquam nihil rem labore doloribus
+ullam alias, voluptates animi.</p>
+<a href="#" class="more">more</a>
+</div>
+<div class="box1">
+<i class="fa fa-arrow-up"></i>
+</div>
+</div>
+<div class="intro">
+<h1 class="introh">lorem ipsum</h1>
+<p class="introp">lorem ipsome by the dheeraj sonkar</p>
+<div class="images">
+<div class="intro1">
+<img src="Dheeraj.jpg" alt="">
+<h1>Dheeraj Sonkar</h1>
+<p>fullstack developer</p>
+<div class="logo">
+<img src="aircampus.jfif" alt="">
+</div>
+</div>
+<div class="intro1">
+<img src="Dheeraj.jpg" alt="">
+<h1>Dheeraj Sonkar</h1>
+<p>fullstack developer</p>
+<div class="logo">
+<img src="aircampus.jfif" alt="">
+</div>
+</div>
+<div class="intro1">
+<img src="Dheeraj.jpg" alt="">
+<h1>Dheeraj Sonkar</h1>
+<p>fullstack developer</p>
+<div class="logo">
+<img src="aircampus.jfif" alt="">
+</div>
+</div>
+<div class="intro1">
+<img src="Dheeraj.jpg" alt="">
+<h1>Dheeraj Sonkar</h1>
+<p>fullstack developer</p>
+<div class="logo">
+<img src="aircampus.jfif" alt="">
+</div>
+</div>
+</div>
+</div>
+<div class="white-area">
+<h1 class="about2h">lorem ipsum</h1>
+<p class="about2p">lorem ipsome by the dheeraj sonkar</p>
+<div class="about2">
+<div class="box1">
+<img src="natural.jfif" alt="">
+<h1 class="box1h">Lorem ipsum dolor sit amet
+consectet.</h1>
+<p class="box1p">Lorem ipsum, dolor sit amet consectetur
+adipisicing elit. Voluptatum magni dolorum
+dolores vero sequi ex quaerat neque officiis ad qui
+recusandae numquam nihil rem labore
+doloribus
+ullam alias, voluptates animi.</p>
+<a href="#" class="more">more</a>
+</div>
+<div class="box1">
+<img src="nature.jfif" alt="">
+<h1 class="box1h">Lorem ipsum dolor sit amet
+consectet.</h1>
+<p class="box1p">Lorem ipsum, dolor sit amet consectetur
+adipisicing elit. Voluptatum magni dolorum
+dolores vero sequi ex quaerat neque officiis ad qui
+recusandae numquam nihil rem labore
+doloribus
+ullam alias, voluptates animi.</p>
+<a href="#" class="more">more</a>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<p> &copy; aircampus image : unsplash</p>
+<div class="icon">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+<i class="fa fa-twitter"></i>
+</div>
+</footer>
+</body>
+</html>
+
+
+CSS CODE
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    }
+    header{
+    background-color: #c15355;
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    margin-top: -20%;
+    }
+    .menu{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 25px;
+    }
+    ul{
+    margin-top: -60px;
+    }
+    ul li{
+    float:right;
+    list-style: none;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        margin: 30px;
+        }
+        ul li a:hover{
+        border-bottom: 2px solid white;
+        transition: .3s;
+        }
+        h2{
+        margin: 20px;
+        margin-left: 50px;
+        color: white;
+        text-transform: uppercase;
+        }
+        .fsd,.mainp{
+        text-align: center;
+        font-size: 55px;
+        color: white;
+        }
+        .mainp{
+        font-size: 15px;
+        }
+        /* --------------------------------main---------------------------- */
+        main{
+        width: 100%;
+        height: 100%;
+        margin-top: 20%;
+        }
+        main .text-section{
+        margin-left:10px;
+        display: flex;
+        margin: 10px;
+        }
+        main .text-section .box1{
+        width:20%;
+        /* height: 300px; */
+        justify-content: center;
+        margin: 40px;
+        }
+        .box1h{
+        color: #c15355;
+        }
+        .box1p{
+        color: gray;
+        margin-bottom: 40px;
+    }
+    .box1 a{
+    text-decoration: none;
+    color: white;
+    background-color:#c15355 ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    }
+    .box1 i{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 100px;
+    float: right;
+    }
+    .intro{
+    width: 100%;
+    background-color:#c15355 ;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    }
+    .images{
+    display: flex;
+    margin: 0px 150px;
+    }
+    .intro1{
+    border: 1px solid white;
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    }
+    .intro1>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    }
+    .logo>img{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+/* --------------about2--------------------- */
+.white-area{
+width: 100%;
+justify-content: center;
+margin-top: 30px;
+}
+.about2h,.about2p{
+text-align: center;
+color: red;
+}
+.about2{
+display: flex;
+justify-content: center;
+}
+.about2>.box1{
+width: 30%;
+margin: 50px;
+}
+.box1 img{
+width: 550px;
+height: 250px;
+}
+/* -------------------footer--------------------- */
+footer{
+width: 100%;
+display: flex;
+border-top: 5px solid gray;
+}
+.icon{
+width: 80%;
+margin-top: 40px;
+}
+.icon>i{
+color:white;
+padding: 5px;
+border-radius: 50%;
+margin: 10px;
+float: right;
+background-color: red;
+}
+footer>p{
+color: rgba(128, 128, 128, 0.718);
+margin
+-top: 50px;
+}
