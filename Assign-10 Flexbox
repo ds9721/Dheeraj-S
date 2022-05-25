@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>www.dheerajflex assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Flexbox</h1>
+        <ul>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+
+        </ul>
+    </header>
+    <main>
+        <div class="content">
+            <div class="text">
+                <h1>Let's talking about Nature</h1>
+                <p>Trying to separate out nature and nurture as explanations for behaviour,
+                     as in classic genetic studies of twins and families,
+                      is now said to be both impossible and unproductive. In practice the nature-nurture model persists as a way of framing discussion on the causes of behaviour in genetic research papers, as well as in the media and lay debate. Social and environmental theories of crime have been dominant in criminology and in public policy while biological theories have been seen as outdated and discredited. Recently, research into genetic variations associated with aggressive and antisocial behaviour has received more attention in the media. This paper explores ideas on the role of nature and nurture in violent and antisocial behaviour through interviews and open-ended questionnaires among lay publics.
+                </p>               
+            </div>
+            <div class="image">
+                <img src="nature.jfif" alt="">
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h1>Gallery</h1>
+            <div class="gallery1">
+                <img src="natural.jfif" alt="">
+                <img src="natural.jfif" alt="">
+                <img src="natural.jfif" alt="">
+            </div>
+
+            <div class="galeery2">
+                <img src="natural.jfif" alt="">
+                <img src="natural.jfif" alt="">
+                <img src="natural.jfif" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>@AirCampus</p>
+        <div class="icon">
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-github"></i>
+
+
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+
+CSS Code:
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 15px;
+    margin-right: 25px;
+}
+body{
+    width: 98%;
+}
+.text>h1{
+    margin: bottom 10px;
+    font-size: 40px;
+}
+.content{
+    width: 98%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    padding: 35px;px;
+}
+.text{
+    width: 50%;
+    margin-right: 40px;
+}
+image{
+    width: 50%;
+
+}
+.image img{
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+
+}
+.gallery{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.gallery1,.gallery2{
+    display: flexbox;
+   justify-content: center;
+    
+}
+.gallery img{
+    height: 200px;
+    width: 350px;
+    margin: 3px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    border-top: 4px;
+    padding: 10px;
+    justify-content: space-between;
+}
+footer>p{
+    margin: left 10px;
+
+}
+.icon i{
+    margin: 10px;
+    margin-right: 10px;
+}
+
